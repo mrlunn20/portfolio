@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color:rgb(34, 34, 134);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgba(255, 251, 0, 0.897);
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  body {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(250, 171, 135);
+    }
+
+    div {
+        background-image: image-set();
+    }
+  
+  
+  /* Style the footer */
+  footer {
+    background-color:rgb(34, 34, 134);
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 251, 0, 0.897);
+  }
+
+  /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+     
+    nav, body {
+      width: 100%;
+      height: auto;
+    }
