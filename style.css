@@ -59,7 +59,20 @@
         float: right;
       }
   
-  
+  .blockquote{
+      color: rgba(255, 251, 0, 0.897);
+      text-align: justify;
+      margin-top: center;
+      margin-left: center;
+      margin-bottom: center;
+      margin-right: center;
+
+  }
+
+  .hack{
+    color: tomato;
+  }
+
   /* Style the footer */
      footer {
     position: absolute;
